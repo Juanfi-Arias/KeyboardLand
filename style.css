@@ -1,0 +1,190 @@
+*{
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color:#FFFFFF;
+    background-color: #20A4A4;
+}
+
+button:hover{
+    background-color: #345573;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.colorAcento{
+    color: #20A4A4;
+}
+
+header{
+    background-color: #EFEFEF;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #20A4A4;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#345573;
+}
+
+header a:hover{
+    color:#d8bd6b;
+}
+
+#hero h1{
+    color: #EFEFEF;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#somosKey .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#review h2{
+    margin-top: 0;
+    font-size: 3.5em;
+}
+
+#review{
+    background-color: #151E27;
+    color: #EFEFEF;
+    text-align: center;
+} 
+
+#review .container{
+    padding: 150px 0px;   
+}
+
+#review p{
+    display: none;
+}
+
+#review .carta{
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#review .carta:hover{
+    box-shadow: 2px 2px 10px #d8bd6b;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/membrana.webp");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Mecanico.jpg");
+}
+
+.carta:nth-child(3){
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/plegable.jpg");
+}
+
+#contacto{
+    padding: 250px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+#contacto h2{
+    font-size: 3em;
+}
+
+footer{
+    background-color: #151E27;
+    color: #FFFFFF;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
